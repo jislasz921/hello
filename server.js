@@ -40,7 +40,7 @@ app.use(
     pathRewrite: {
       '^/': '/',
     },
-     logger: console
+//     logger: console
   })
 );
 
