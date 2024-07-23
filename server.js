@@ -26,15 +26,15 @@ app.use(
     changeOrigin: true,
     on: {  /* http代理事件集 */
           proxyRes: function proxyRes(proxyRes, req, res) {
-             console.log(res) //for debug
+//             console.log(res) //for debug
           },
           proxyReq: function proxyReq(proxyReq, req, res) {
-             console.log(proxyReq); //for debug
-             console.log(req) //for debug
-             console.log(res) //for debug
+//             console.log(proxyReq); //for debug
+//             console.log(req) //for debug
+//             console.log(res) //for debug
           },
           error: function error(err, req, res) {
-            console.warn('websocket error.', err);
+//            console.warn('websocket error.', err);
           }
         },
     pathRewrite: {
